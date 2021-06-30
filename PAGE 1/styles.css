@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,700;1,400&display=swap');
+html , body {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    background-color: white;
+    font-size: 16px;
+}
+
+@media screen and (max-width : 768px) {
+    
+    .wrapper {
+         display: flex;
+         flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    .title {
+        font-weight: bold;
+        font-size: 2.5rem;
+        margin: 20px;
+    }
+    .title-secondary {
+        font-family: monospace;
+        font-weight: 300;
+    }
+
+    .fas {
+
+        color: chocolate;
+        font-size: 2.3rem;
+        margin: 20px;
+        align-self: center;
+    }
+
+    .todo-header {
+
+        font-size: 1.4rem;
+        font-weight: lighter;
+    }
+
+    .todo-item {
+
+        border: 1px solid chocolate;
+        border-radius: 5px;
+        width: 350px ;
+        margin: 40px 0;
+        text-align: center;
+        height: 5rem;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding-top: 20px;
+        box-shadow: 0.3rem 0. ;
+    }
+
+
+    
+}
